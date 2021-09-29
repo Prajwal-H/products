@@ -1,0 +1,44 @@
+html {
+	margin: 0;
+	font-family: "Calibri", Calibri-Bold;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	scroll-behavior: smooth;
+}
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #f4f4f4 0% 0% no-repeat padding-box !important;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.jumbotron {
+	background: #f4f4f4 0% 0% no-repeat padding-box !important;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	border-radius: 10rem !important;
+	background: white 0% 0% no-repeat padding-box;
+	border-radius: 10px;
+	opacity: 0.41;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+	border-radius: 10rem !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: lightgray 0% 0% no-repeat padding-box;
+	border-radius: 10px;
+	opacity: 0.41;
+}
