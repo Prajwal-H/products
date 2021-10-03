@@ -1,4 +1,7 @@
 import React from "react";
+import { Row } from "react-bootstrap";
+import Header from "../../components/Header";
+import Items from "../../components/items";
 
 /**
 * @author Prajwal H
@@ -7,7 +10,14 @@ import React from "react";
 **/
 
 const Products = (props) => {
-	return <div>Products</div>;
+	return (
+		<>
+			<Header />
+			<Row className="mt-5">
+				<Items />
+			</Row>
+		</>
+	);
 };
 
 export default Products;

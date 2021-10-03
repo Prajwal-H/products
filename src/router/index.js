@@ -4,16 +4,14 @@ import PageNotFound from "../pages/PageNotFound";
 import Dashboard from "../pages/Dashboard";
 import Products from "../pages/products";
 import Corousel from "../components/corousel";
-import Mobiles from "../components/mobiles";
 
 const Routes = (props) => {
 	return (
 		<BrowserRouter>
 			<Switch>
-				<Route path='/' exact component={Products} />
-				<Route path='/dashboard' exact component={Dashboard} />
-				<Route path='/mobiles' exact component={Mobiles} />
-				<Route path='/corousel' exact component={Corousel} />
+				<Route path="/" exact component={Products} />
+				<Route path="/dashboard" exact component={Dashboard} />
+				<Route path="/corousel" exact component={Corousel} />
 				<Route component={PageNotFound}></Route>
 			</Switch>
 		</BrowserRouter>

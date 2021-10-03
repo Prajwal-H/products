@@ -24,6 +24,7 @@ code {
 
 ::-webkit-scrollbar {
 	width: 10px;
+	height: 10px;
 	border-radius: 10rem !important;
 	background: white 0% 0% no-repeat padding-box;
 	border-radius: 10px;
